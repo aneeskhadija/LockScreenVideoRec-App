@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:key="key_of_pref"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--below line is to create preference category-->
+    <PreferenceCategory
+        android:title="Video Settings"
+        app:iconSpaceReserved="false">
+
+
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="Select Camera"
+            android:entries="@array/str_pref_video_camera"
+            android:entryValues="@array/str_camera_sides"
+            android:key="key_select_camera"
+            android:summary="Back Camera"
+            android:title="Video Camera"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="3"
+            android:dialogTitle="Preview Size"
+            android:entries="@array/str_pref_preview_size"
+            android:entryValues="@array/str_preview_size_options"
+            android:key="key_set_preview"
+            android:summary="Small"
+            android:title="Preview Size"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="Select video Quality"
+            android:entries="@array/str_pref_video_quality"
+            android:entryValues="@array/str_video_quality_sides"
+            android:key="key_video_quality"
+            android:summary="QUALITY_480P"
+            android:title="Video Quality"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/str_ShowNotification"
+            android:title="Show Notification"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:title="Check for updates"
+            android:key="@string/str_UpdateAppKey"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,606 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lockscreen_video_recorder_uhudSoft"
+4    android:versionCode="14"
+5    android:versionName="1.2.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+11-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:7:5-76
+11-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:7:22-73
+12    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+12-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:8:5-75
+12-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:8:22-72
+13    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+13-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:9:5-75
+13-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:9:22-72
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:10:5-76
+14-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:10:22-73
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:11:5-79
+15-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:11:22-76
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:12:5-14:40
+16-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:13:9-65
+17    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+17-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:15:5-79
+17-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:15:22-76
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:16:5-65
+18-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:16:22-62
+19    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+19-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:17:5-78
+19-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:17:22-75
+20    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+20-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:18:5-71
+20-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:18:22-68
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:19:5-71
+21-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:19:22-68
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:20:5-80
+22-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:20:22-77
+23    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+23-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:21:5-80
+23-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:21:22-77
+24    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+24-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:22:5-77
+24-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:22:22-74
+25    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+25-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:23:5-79
+25-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:23:22-76
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:24:5-67
+26-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:24:22-64
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:11:5-79
+27-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:11:22-76
+28    <!-- Required only if your app targets Android 13 or higher. -->
+29    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+29-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:15:5-79
+29-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:15:22-76
+30
+31    <uses-feature
+31-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:29:5-31:35
+32        android:name="android.hardware.camera"
+32-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:30:9-47
+33        android:required="true" />
+33-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:31:9-32
+34
+35    <!-- Android package visibility setting -->
+36    <queries>
+36-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:32:5-48:15
+37
+38        <!-- For browser content -->
+39        <intent>
+39-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:35:9-41:18
+40            <action android:name="android.intent.action.VIEW" />
+40-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:36:13-65
+40-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:36:21-62
+41
+42            <category android:name="android.intent.category.BROWSABLE" />
+42-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:38:13-74
+42-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:38:23-71
+43
+44            <data android:scheme="https" />
+44-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:40:13-44
+44-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:40:19-41
+45        </intent>
+46        <!-- End of browser content -->
+47        <!-- For CustomTabsService -->
+48        <intent>
+48-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:44:9-46:18
+49            <action android:name="android.support.customtabs.action.CustomTabsService" />
+49-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:45:13-90
+49-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:45:21-87
+50        </intent>
+51        <!-- End of CustomTabsService -->
+52        <package android:name="com.facebook.katana" />
+52-->[com.facebook.android:audience-network-sdk:6.14.0] C:\Users\asafa\.gradle\caches\transforms-3\b931ee5ea5fd2e77b1ef1180de52e36f\transformed\jetified-audience-network-sdk-6.14.0\AndroidManifest.xml:12:9-55
+52-->[com.facebook.android:audience-network-sdk:6.14.0] C:\Users\asafa\.gradle\caches\transforms-3\b931ee5ea5fd2e77b1ef1180de52e36f\transformed\jetified-audience-network-sdk-6.14.0\AndroidManifest.xml:12:18-52
+53    </queries>
+54
+55    <uses-permission android:name="android.permission.WAKE_LOCK" />
+55-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\asafa\.gradle\caches\transforms-3\a07d4cf3204017a872e1ad43316d6a15\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:5-68
+55-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\asafa\.gradle\caches\transforms-3\a07d4cf3204017a872e1ad43316d6a15\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:22-65
+56
+57    <permission
+57-->[androidx.core:core:1.9.0] C:\Users\asafa\.gradle\caches\transforms-3\37ff2fb7efe0241c8c43b7cb205fd55f\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+58        android:name="com.lockscreen_video_recorder_uhudSoft.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+58-->[androidx.core:core:1.9.0] C:\Users\asafa\.gradle\caches\transforms-3\37ff2fb7efe0241c8c43b7cb205fd55f\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+59        android:protectionLevel="signature" />
+59-->[androidx.core:core:1.9.0] C:\Users\asafa\.gradle\caches\transforms-3\37ff2fb7efe0241c8c43b7cb205fd55f\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+60
+61    <uses-permission android:name="com.lockscreen_video_recorder_uhudSoft.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+61-->[androidx.core:core:1.9.0] C:\Users\asafa\.gradle\caches\transforms-3\37ff2fb7efe0241c8c43b7cb205fd55f\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+61-->[androidx.core:core:1.9.0] C:\Users\asafa\.gradle\caches\transforms-3\37ff2fb7efe0241c8c43b7cb205fd55f\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+62
+63    <application
+63-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:33:5-96:19
+64        android:allowBackup="true"
+64-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:34:9-35
+65        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+65-->[androidx.core:core:1.9.0] C:\Users\asafa\.gradle\caches\transforms-3\37ff2fb7efe0241c8c43b7cb205fd55f\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+66        android:debuggable="true"
+67        android:extractNativeLibs="false"
+68        android:hardwareAccelerated="true"
+68-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:35:9-43
+69        android:icon="@drawable/icon"
+69-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:36:9-38
+70        android:installLocation="preferExternal"
+70-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:42:9-49
+71        android:label="@string/app_name"
+71-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:37:9-41
+72        android:largeHeap="true"
+72-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:38:9-33
+73        android:requestLegacyExternalStorage="true"
+73-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:39:9-52
+74        android:roundIcon="@drawable/round_icon"
+74-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:40:9-49
+75        android:supportsRtl="true"
+75-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:41:9-35
+76        android:testOnly="true"
+77        android:theme="@style/Theme.SecretVideoRecorder" >
+77-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:43:9-57
+78        <activity
+78-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:44:9-46:40
+79            android:name="com.lockscreen_video_recorder_uhudSoft.Activities.AlarmPage"
+79-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:45:13-87
+80            android:exported="false" />
+80-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:46:13-37
+81        <activity
+81-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:47:9-49:40
+82            android:name="com.lockscreen_video_recorder_uhudSoft.Activities.VideosFolder"
+82-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:48:13-90
+83            android:exported="false" />
+83-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:49:13-37
+84        <activity
+84-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:50:9-52:40
+85            android:name="com.lockscreen_video_recorder_uhudSoft.Activities.PreviewSize"
+85-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:51:13-89
+86            android:exported="false" />
+86-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:52:13-37
+87        <activity
+87-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:53:9-55:40
+88            android:name="com.lockscreen_video_recorder_uhudSoft.Activities.VideoSettings"
+88-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:54:13-91
+89            android:exported="false" />
+89-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:55:13-37
+90        <activity
+90-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:56:9-65:20
+91            android:name="com.lockscreen_video_recorder_uhudSoft.Activities.SplashScreen"
+91-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:57:13-90
+92            android:exported="true"
+92-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:58:13-36
+93            android:screenOrientation="portrait" >
+93-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:59:13-49
+94            <intent-filter>
+94-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:60:13-64:29
+95                <action android:name="android.intent.action.MAIN" />
+95-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:61:17-69
+95-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:61:25-66
+96
+97                <category android:name="android.intent.category.LAUNCHER" />
+97-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:63:17-77
+97-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:63:27-74
+98            </intent-filter>
+99        </activity>
+100        <activity
+100-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:66:9-69:52
+101            android:name="com.lockscreen_video_recorder_uhudSoft.Activities.IntroductionHomeActivity"
+101-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:67:13-102
+102            android:exported="false"
+102-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:68:13-37
+103            android:screenOrientation="portrait" />
+103-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:69:13-49
+104        <activity
+104-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:70:9-73:52
+105            android:name="com.lockscreen_video_recorder_uhudSoft.Activities.PrivacyPolicy"
+105-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:71:13-91
+106            android:exported="false"
+106-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:72:13-37
+107            android:screenOrientation="portrait" />
+107-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:73:13-49
+108        <activity
+108-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:74:9-78:64
+109            android:name="com.lockscreen_video_recorder_uhudSoft.Activities.VideosPlayer"
+109-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:75:13-90
+110            android:exported="false"
+110-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:76:13-37
+111            android:screenOrientation="portrait"
+111-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:77:13-49
+112            android:theme="@style/Theme.SecretVideoRecorder" />
+112-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:78:13-61
+113        <activity
+113-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:79:9-82:52
+114            android:name="com.lockscreen_video_recorder_uhudSoft.MainActivity"
+114-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:80:13-79
+115            android:exported="false"
+115-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:81:13-37
+116            android:screenOrientation="portrait" />
+116-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:82:13-49
+117
+118        <service
+118-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:84:9-87:65
+119            android:name="com.lockscreen_video_recorder_uhudSoft.Utils.FloatingWindowServices"
+119-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:85:13-95
+120            android:exported="false"
+120-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:86:13-37
+121            android:foregroundServiceType="camera|microphone" />
+121-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:87:13-62
+122
+123        <receiver android:name="com.lockscreen_video_recorder_uhudSoft.Utils.AlarmReceiver" />
+123-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:89:9-95
+123-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:89:19-92
+124
+125        <meta-data
+125-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:92:9-94:51
+126            android:name="com.google.android.gms.ads.APPLICATION_ID"
+126-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:93:13-69
+127            android:value="@string/AdMob_App_ID" />
+127-->E:\Uhud\Secret Video Recorder\Source code\LockScreenVideoRecorder\app\src\main\AndroidManifest.xml:94:13-49
+128
+129        <activity
+129-->[com.karumi:dexter:6.2.3] C:\Users\asafa\.gradle\caches\transforms-3\8759fe813e5d524d6dd0624b8fdf9593\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:27:9-29:72
+130            android:name="com.karumi.dexter.DexterActivity"
+130-->[com.karumi:dexter:6.2.3] C:\Users\asafa\.gradle\caches\transforms-3\8759fe813e5d524d6dd0624b8fdf9593\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:28:13-60
+131            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+131-->[com.karumi:dexter:6.2.3] C:\Users\asafa\.gradle\caches\transforms-3\8759fe813e5d524d6dd0624b8fdf9593\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:29:13-69
+132        <activity
+132-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:10:9-15:70
+133            android:name="com.google.android.ads.mediationtestsuite.activities.HomeActivity"
+133-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:11:13-93
+134            android:exported="false"
+134-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:12:13-37
+135            android:label="Mediation Test Suite"
+135-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:13:13-49
+136            android:screenOrientation="portrait"
+136-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:14:13-49
+137            android:theme="@style/gmts_TestSuiteTheme.NoActionBar" />
+137-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:15:13-67
+138        <activity
+138-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:16:9-21:63
+139            android:name="com.google.android.ads.mediationtestsuite.activities.NetworkDetailActivity"
+139-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:17:13-102
+140            android:exported="false"
+140-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:18:13-37
+141            android:screenOrientation="portrait"
+141-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:19:13-49
+142            android:theme="@style/gmts_AppSecondaryTheme"
+142-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:20:13-58
+143            android:windowSoftInputMode="stateAlwaysHidden" />
+143-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:21:13-60
+144        <activity
+144-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:22:9-27:73
+145            android:name="com.google.android.ads.mediationtestsuite.activities.ConfigurationItemDetailActivity"
+145-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:23:13-112
+146            android:exported="false"
+146-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:24:13-37
+147            android:label="@string/gmts_ad_unit_details_title"
+147-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:25:13-63
+148            android:screenOrientation="portrait"
+148-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:26:13-49
+149            android:theme="@style/gmts_AppSecondaryTheme.NoActionBar" />
+149-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:27:13-70
+150        <activity
+150-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:28:9-32:73
+151            android:name="com.google.android.ads.mediationtestsuite.activities.ConfigurationItemsSearchActivity"
+151-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:29:13-113
+152            android:exported="false"
+152-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:30:13-37
+153            android:screenOrientation="portrait"
+153-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:31:13-49
+154            android:theme="@style/gmts_AppSecondaryTheme.NoActionBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+154-->[com.google.android.ads:mediation-test-suite:3.0.0] C:\Users\asafa\.gradle\caches\transforms-3\d2f2cbd6af5688022d73d49f9007846b\transformed\jetified-mediation-test-suite-3.0.0\AndroidManifest.xml:32:13-70
+155        <activity
+155-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:53:9-58:43
+156            android:name="com.google.android.gms.ads.AdActivity"
+156-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:54:13-65
+157            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+157-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:55:13-122
+158            android:exported="false"
+158-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:56:13-37
+159            android:theme="@android:style/Theme.Translucent" />
+159-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:57:13-61
+160
+161        <provider
+161-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:60:9-65:43
+162            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+162-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:61:13-76
+163            android:authorities="com.lockscreen_video_recorder_uhudSoft.mobileadsinitprovider"
+163-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:62:13-73
+164            android:exported="false"
+164-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:63:13-37
+165            android:initOrder="100" />
+165-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:64:13-36
+166
+167        <service
+167-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:67:9-71:43
+168            android:name="com.google.android.gms.ads.AdService"
+168-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:68:13-64
+169            android:enabled="true"
+169-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:69:13-35
+170            android:exported="false" />
+170-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:70:13-37
+171
+172        <activity
+172-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:73:9-77:43
+173            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+173-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:74:13-82
+174            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+174-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:75:13-122
+175            android:exported="false" />
+175-->[com.google.android.gms:play-services-ads-lite:22.1.0] C:\Users\asafa\.gradle\caches\transforms-3\a198a12ea2630027288e3721a01fc442\transformed\jetified-play-services-ads-lite-22.1.0\AndroidManifest.xml:76:13-37
+176        <activity
+176-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\asafa\.gradle\caches\transforms-3\a3b43ba86d0de13266a9c2e7f5888edc\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
+177            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+177-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\asafa\.gradle\caches\transforms-3\a3b43ba86d0de13266a9c2e7f5888edc\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
+178            android:exported="false"
+178-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\asafa\.gradle\caches\transforms-3\a3b43ba86d0de13266a9c2e7f5888edc\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
+179            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+179-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\asafa\.gradle\caches\transforms-3\a3b43ba86d0de13266a9c2e7f5888edc\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
+180        <activity
+180-->[com.facebook.android:audience-network-sdk:6.14.0] C:\Users\asafa\.gradle\caches\transforms-3\b931ee5ea5fd2e77b1ef1180de52e36f\transformed\jetified-audience-network-sdk-6.14.0\AndroidManifest.xml:20:9-24:75
+181            android:name="com.facebook.ads.AudienceNetworkActivity"
+181-->[com.facebook.android:audience-network-sdk:6.14.0] C:\Users\asafa\.gradle\caches\transforms-3\b931ee5ea5fd2e77b1ef1180de52e36f\transformed\jetified-audience-network-sdk-6.14.0\AndroidManifest.xml:21:13-68
+182            android:configChanges="keyboardHidden|orientation|screenSize"
+182-->[com.facebook.android:audience-network-sdk:6.14.0] C:\Users\asafa\.gradle\caches\transforms-3\b931ee5ea5fd2e77b1ef1180de52e36f\transformed\jetified-audience-network-sdk-6.14.0\AndroidManifest.xml:22:13-74
+183            android:exported="false"
+183-->[com.facebook.android:audience-network-sdk:6.14.0] C:\Users\asafa\.gradle\caches\transforms-3\b931ee5ea5fd2e77b1ef1180de52e36f\transformed\jetified-audience-network-sdk-6.14.0\AndroidManifest.xml:23:13-37
+184            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+184-->[com.facebook.android:audience-network-sdk:6.14.0] C:\Users\asafa\.gradle\caches\transforms-3\b931ee5ea5fd2e77b1ef1180de52e36f\transformed\jetified-audience-network-sdk-6.14.0\AndroidManifest.xml:24:13-72
+185
+186        <provider
+186-->[com.facebook.android:audience-network-sdk:6.14.0] C:\Users\asafa\.gradle\caches\transforms-3\b931ee5ea5fd2e77b1ef1180de52e36f\transformed\jetified-audience-network-sdk-6.14.0\AndroidManifest.xml:26:9-29:40
+187            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+187-->[com.facebook.android:audience-network-sdk:6.14.0] C:\Users\asafa\.gradle\caches\transforms-3\b931ee5ea5fd2e77b1ef1180de52e36f\transformed\jetified-audience-network-sdk-6.14.0\AndroidManifest.xml:27:13-75
+188            android:authorities="com.lockscreen_video_recorder_uhudSoft.AudienceNetworkContentProvider"
+188-->[com.facebook.android:audience-network-sdk:6.14.0] C:\Users\asafa\.gradle\caches\transforms-3\b931ee5ea5fd2e77b1ef1180de52e36f\transformed\jetified-audience-network-sdk-6.14.0\AndroidManifest.xml:28:13-82
+189            android:exported="false" />
+189-->[com.facebook.android:audience-network-sdk:6.14.0] C:\Users\asafa\.gradle\caches\transforms-3\b931ee5ea5fd2e77b1ef1180de52e36f\transformed\jetified-audience-network-sdk-6.14.0\AndroidManifest.xml:29:13-37
+190
+191        <meta-data
+191-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\asafa\.gradle\caches\transforms-3\6f4d38aae750c62b79545f1ae3ef16b1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+192            android:name="com.google.android.gms.version"
+192-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\asafa\.gradle\caches\transforms-3\6f4d38aae750c62b79545f1ae3ef16b1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+193            android:value="@integer/google_play_services_version" />
+193-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\asafa\.gradle\caches\transforms-3\6f4d38aae750c62b79545f1ae3ef16b1\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+194
+195        <uses-library
+195-->[androidx.window:window:1.0.0] C:\Users\asafa\.gradle\caches\transforms-3\452ebc29f18c03edc00217791fac3bfd\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+196            android:name="androidx.window.extensions"
+196-->[androidx.window:window:1.0.0] C:\Users\asafa\.gradle\caches\transforms-3\452ebc29f18c03edc00217791fac3bfd\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+197            android:required="false" />
+197-->[androidx.window:window:1.0.0] C:\Users\asafa\.gradle\caches\transforms-3\452ebc29f18c03edc00217791fac3bfd\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+198        <uses-library
+198-->[androidx.window:window:1.0.0] C:\Users\asafa\.gradle\caches\transforms-3\452ebc29f18c03edc00217791fac3bfd\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+199            android:name="androidx.window.sidecar"
+199-->[androidx.window:window:1.0.0] C:\Users\asafa\.gradle\caches\transforms-3\452ebc29f18c03edc00217791fac3bfd\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+200            android:required="false" />
+200-->[androidx.window:window:1.0.0] C:\Users\asafa\.gradle\caches\transforms-3\452ebc29f18c03edc00217791fac3bfd\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+201
+202        <provider
+202-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asafa\.gradle\caches\transforms-3\117144890a09768a85e77b65633db7de\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+203            android:name="androidx.startup.InitializationProvider"
+203-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asafa\.gradle\caches\transforms-3\117144890a09768a85e77b65633db7de\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+204            android:authorities="com.lockscreen_video_recorder_uhudSoft.androidx-startup"
+204-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asafa\.gradle\caches\transforms-3\117144890a09768a85e77b65633db7de\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+205            android:exported="false" >
+205-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asafa\.gradle\caches\transforms-3\117144890a09768a85e77b65633db7de\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+206            <meta-data
+206-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asafa\.gradle\caches\transforms-3\117144890a09768a85e77b65633db7de\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+207                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+207-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asafa\.gradle\caches\transforms-3\117144890a09768a85e77b65633db7de\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+208                android:value="androidx.startup" />
+208-->[androidx.emoji2:emoji2:1.2.0] C:\Users\asafa\.gradle\caches\transforms-3\117144890a09768a85e77b65633db7de\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+209            <meta-data
+209-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
+210                android:name="androidx.work.WorkManagerInitializer"
+210-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
+211                android:value="androidx.startup" />
+211-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
+212            <meta-data
+212-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\asafa\.gradle\caches\transforms-3\ffdadef1d1a26c31feead04936e457ff\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+213                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+213-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\asafa\.gradle\caches\transforms-3\ffdadef1d1a26c31feead04936e457ff\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+214                android:value="androidx.startup" />
+214-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\asafa\.gradle\caches\transforms-3\ffdadef1d1a26c31feead04936e457ff\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+215        </provider>
+216
+217        <service
+217-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
+218            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+218-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
+219            android:directBootAware="false"
+219-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
+220            android:enabled="@bool/enable_system_alarm_service_default"
+220-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
+221            android:exported="false" />
+221-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
+222        <service
+222-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
+223            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+223-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
+224            android:directBootAware="false"
+224-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
+225            android:enabled="@bool/enable_system_job_service_default"
+225-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
+226            android:exported="true"
+226-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
+227            android:permission="android.permission.BIND_JOB_SERVICE" />
+227-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
+228        <service
+228-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
+229            android:name="androidx.work.impl.foreground.SystemForegroundService"
+229-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
+230            android:directBootAware="false"
+230-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
+231            android:enabled="@bool/enable_system_foreground_service_default"
+231-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
+232            android:exported="false" />
+232-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
+233
+234        <receiver
+234-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
+235            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+235-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
+236            android:directBootAware="false"
+236-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
+237            android:enabled="true"
+237-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
+238            android:exported="false" />
+238-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
+239        <receiver
+239-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
+240            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+240-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
+241            android:directBootAware="false"
+241-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
+242            android:enabled="false"
+242-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
+243            android:exported="false" >
+243-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
+244            <intent-filter>
+244-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
+245                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+245-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
+245-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
+246                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+246-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
+246-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
+247            </intent-filter>
+248        </receiver>
+249        <receiver
+249-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
+250            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+250-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
+251            android:directBootAware="false"
+251-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
+252            android:enabled="false"
+252-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
+253            android:exported="false" >
+253-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
+254            <intent-filter>
+254-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
+255                <action android:name="android.intent.action.BATTERY_OKAY" />
+255-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
+255-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
+256                <action android:name="android.intent.action.BATTERY_LOW" />
+256-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
+256-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
+257            </intent-filter>
+258        </receiver>
+259        <receiver
+259-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
+260            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+260-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
+261            android:directBootAware="false"
+261-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
+262            android:enabled="false"
+262-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
+263            android:exported="false" >
+263-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
+264            <intent-filter>
+264-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
+265                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+265-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
+265-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
+266                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+266-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
+266-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
+267            </intent-filter>
+268        </receiver>
+269        <receiver
+269-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
+270            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+270-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
+271            android:directBootAware="false"
+271-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
+272            android:enabled="false"
+272-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
+273            android:exported="false" >
+273-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
+274            <intent-filter>
+274-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
+275                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+275-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
+275-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
+276            </intent-filter>
+277        </receiver>
+278        <receiver
+278-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
+279            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+279-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
+280            android:directBootAware="false"
+280-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
+281            android:enabled="false"
+281-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
+282            android:exported="false" >
+282-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
+283            <intent-filter>
+283-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
+284                <action android:name="android.intent.action.BOOT_COMPLETED" />
+284-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
+284-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
+285                <action android:name="android.intent.action.TIME_SET" />
+285-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
+285-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
+286                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+286-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
+286-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
+287            </intent-filter>
+288        </receiver>
+289        <receiver
+289-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
+290            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+290-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
+291            android:directBootAware="false"
+291-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
+292            android:enabled="@bool/enable_system_alarm_service_default"
+292-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
+293            android:exported="false" >
+293-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
+294            <intent-filter>
+294-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
+295                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+295-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
+295-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
+296            </intent-filter>
+297        </receiver>
+298        <receiver
+298-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
+299            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+299-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
+300            android:directBootAware="false"
+300-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
+301            android:enabled="true"
+301-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
+302            android:exported="true"
+302-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
+303            android:permission="android.permission.DUMP" >
+303-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
+304            <intent-filter>
+304-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
+305                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+305-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
+305-->[androidx.work:work-runtime:2.7.0] C:\Users\asafa\.gradle\caches\transforms-3\83c317afa1bbac9905c2a74777c00886\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
+306            </intent-filter>
+307        </receiver>
+308
+309        <service
+309-->[androidx.room:room-runtime:2.2.5] C:\Users\asafa\.gradle\caches\transforms-3\f59f541817eb8fa77d0304a1ce44ff70\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+310            android:name="androidx.room.MultiInstanceInvalidationService"
+310-->[androidx.room:room-runtime:2.2.5] C:\Users\asafa\.gradle\caches\transforms-3\f59f541817eb8fa77d0304a1ce44ff70\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+311            android:directBootAware="true"
+311-->[androidx.room:room-runtime:2.2.5] C:\Users\asafa\.gradle\caches\transforms-3\f59f541817eb8fa77d0304a1ce44ff70\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+312            android:exported="false" />
+312-->[androidx.room:room-runtime:2.2.5] C:\Users\asafa\.gradle\caches\transforms-3\f59f541817eb8fa77d0304a1ce44ff70\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+313    </application>
+314
+315</manifest>

@@ -1,0 +1,13 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="388dp"
+    android:height="220dp"
+    android:viewportWidth="388"
+    android:viewportHeight="220">
+<!--  <path-->
+<!--      android:pathData="M20,0L368,0A20,20 0,0 1,388 20L388,200A20,20 0,0 1,368 220L20,220A20,20 0,0 1,0 200L0,20A20,20 0,0 1,20 0z"-->
+<!--      android:fillColor="#F168AF"/>-->
+
+  <gradient android:startColor="#fff" android:angle="90" android:endColor="#fff" />
+  <corners android:radius="18dp" />
+</shape>
+

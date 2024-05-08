@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="notification_right_side_padding_top">4dp</dimen>
+    <style name="TextAppearance.AppCompat.Tooltip">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="gmts_FontBody1">
+<item name="android:textSize">13sp</item>
+<item name="android:textColor">@color/gmts_dark_text_primary</item>
+<item name="android:fontFamily">sans-serif</item>
+<item name="android:lineSpacingExtra">3dp</item>
+</style>
+    <style name="gmts_FontBody2">
+<item name="android:textSize">14sp</item>
+<item name="android:textColor">@color/gmts_dark_gray</item>
+<item name="android:fontFamily">sans-serif-medium</item>
+<item name="android:lineSpacingExtra">2dp</item>
+</style>
+    <style name="gmts_FontBody3">
+<item name="android:textSize">13sp</item>
+<item name="android:textColor">@color/gmts_dark_text_secondary</item>
+<item name="android:fontFamily">sans-serif</item>
+<item name="android:lineSpacingExtra">1dp</item>
+</style>
+    <style name="gmts_FontButton">
+<item name="android:textSize">13sp</item>
+<item name="android:textColor">@color/gmts_blue</item>
+<item name="android:fontFamily">sans-serif-medium</item>
+<item name="android:lineSpacingExtra">1dp</item>
+</style>
+    <style name="gmts_FontButtonWhite">
+<item name="android:textSize">13sp</item>
+<item name="android:textColor">@color/gmts_light_text</item>
+<item name="android:fontFamily">sans-serif-medium</item>
+<item name="android:lineSpacingExtra">1dp</item>
+</style>
+    <style name="gmts_FontCaption1">
+<item name="android:textSize">12sp</item>
+<item name="android:textColor">@color/gmts_dark_text_primary</item>
+<item name="android:fontFamily">sans-serif</item>
+<item name="android:lineSpacingExtra">4dp</item>
+</style>
+    <style name="gmts_FontHeadline1">
+<item name="android:textSize">20sp</item>
+<item name="android:textColor">@color/gmts_dark_text_primary</item>
+<item name="android:fontFamily">sans-serif</item>
+<item name="android:lineSpacingExtra">4dp</item>
+</style>
+    <style name="gmts_FontHeadline2">
+<item name="android:textSize">16sp</item>
+<item name="android:textColor">@color/gmts_dark_gray</item>
+<item name="android:fontFamily">sans-serif-medium</item>
+<item name="android:lineSpacingExtra">4dp</item>
+</style>
+    <style name="gmts_FontHeadline3">
+<item name="android:textSize">13sp</item>
+<item name="android:textColor">@color/gmts_light_text</item>
+<item name="android:lineSpacingExtra">3dp</item>
+<item name="android:fontFamily">sans-serif-medium</item>
+<item name="android:textAllCaps">true</item>
+</style>
+    <style name="gmts_FontHeadline4">
+<item name="android:textSize">14sp</item>
+<item name="android:textColor">@color/gmts_light_gray</item>
+<item name="android:fontFamily">sans-serif</item>
+<item name="android:lineSpacingExtra">2dp</item>
+</style>
+    <style name="gmts_FontHeadline5">
+<item name="android:textSize">11sp</item>
+<item name="android:textColor">@color/gmts_dark_text_primary</item>
+<item name="android:fontFamily">sans-serif</item>
+<item name="android:lineSpacingExtra">1dp</item>
+<item name="android:textAllCaps">true</item>
+</style>
+    <style name="gmts_FontHeadline6">
+<item name="android:textSize">13sp</item>
+<item name="android:textColor">@color/gmts_dark_gray</item>
+<item name="android:lineSpacingExtra">3dp</item>
+<item name="android:fontFamily">sans-serif</item>
+</style>
+    <style name="gmts_FontHeadline7">
+<item name="android:textSize">13sp</item>
+<item name="android:textColor">@color/gmts_native_assets</item>
+<item name="android:lineSpacingExtra">3dp</item>
+<item name="android:fontFamily">sans-serif</item>
+</style>
+    <style name="gmts_FontNativeAssets">
+<item name="android:textSize">12dp</item>
+<item name="android:textColor">@color/gmts_native_assets</item>
+<item name="android:fontFamily">monospace</item>
+<item name="android:lineSpacingExtra">1dp</item>
+</style>
+    <style name="gmts_FontNativeAssetsHeadline">
+<item name="android:textSize">13dp</item>
+<item name="android:textColor">@color/gmts_native_assets</item>
+<item name="android:fontFamily">sans-serif</item>
+<item name="android:lineSpacingExtra">1dp</item>
+</style>
+    <style name="gmts_FontSearchBar">
+<item name="android:textSize">20sp</item>
+<item name="android:textColor">@color/gmts_dark_text_primary</item>
+<item name="android:fontFamily">sans-serif</item>
+<item name="android:lineSpacingExtra">0dp</item>
+</style>
+    <style name="gmts_FontSearchBarPlaceHolder">
+<item name="android:textSize">20sp</item>
+<item name="android:textColor">@color/gmts_dark_text_secondary</item>
+<item name="android:fontFamily">sans-serif</item>
+<item name="android:lineSpacingExtra">0dp</item>
+</style>
+</resources>

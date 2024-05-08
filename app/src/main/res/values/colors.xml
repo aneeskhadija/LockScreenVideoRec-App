@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4B576F</color>
+    <color name="colorPrimaryDark">#434E64</color>
+    <color name="colorAccent">#f3dff8</color>
+
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_gray">#D3D3D3</color>
+    <color name="color_Darkgray">#8E8E8E</color>
+    <color name="color_black">#000000</color>
+    <color name="color_txt">#000</color>
+
+    <color name="color_home_bg">#9A979C</color>
+    <color name="color_favorite_bg">#444145</color>
+    <color name="color_chat_bg">#21FF06</color>
+    <color name="color_notification_bg">#80007F</color>
+    <color name="color_profile_bg">#0D5FFF</color>
+
+    <color name="inactive">#C4C4C4</color>
+    <color name="active">#FDFDFD</color>
+
+    <color name="progressBarColor">#F168AF</color>
+    <color name="primaryback">#06628C</color>
+
+    <color name="app_new_header_color_suggested">#005826</color>
+    <color name="bottom_nav_color">#FDFDFD</color>
+</resources>

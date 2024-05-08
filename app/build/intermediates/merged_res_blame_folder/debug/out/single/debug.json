@@ -1,0 +1,310 @@
+[
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_baseline_arrow_forward_ios_24.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_baseline_arrow_forward_ios_24.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_notification_bell.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/notification_bell.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_activity_preview_size.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/activity_preview_size.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_human_icon.png.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/human_icon.png"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_storagepermissions.png.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/storagepermissions.png"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/navigation_mobile_navigation.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/font_poppins_light.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/font/poppins_light.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_alarm.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/alarm.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/xml_preferences.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/xml/preferences.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/font_poppins.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/font/poppins.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_itemview_video.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/itemview_video.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_activity_splash_screen.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_activity_videos_player.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/activity_videos_player.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_activity_privacy_policy.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/activity_privacy_policy.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_video.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/video.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_stop.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/stop.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_fragment_notification.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/fragment_notification.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_btn_white.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/btn_white.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/font_poppins_medium.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/font/poppins_medium.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_baseline_preview_24.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_baseline_preview_24.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_favorite_border_black.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_favorite_border_black.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_bluetooth_icon.png.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/bluetooth_icon.png"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_video.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_video.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_setting.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_setting.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_round_button.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/round_button.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_fragment_video_folder.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/fragment_video_folder.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_message.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_message.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_overlay_layout.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/overlay_layout.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_play.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/play.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/font_poppins_bold.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/font/poppins_bold.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_baseline_delete_24.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_baseline_delete_24.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_icon.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/icon.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_account.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_account.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_activity_introduction_home.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/activity_introduction_home.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_bottom_drawable.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/bottom_drawable.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_pause.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/pause.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_notification.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_share.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/share.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_baseline_add_alarm_24.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_baseline_add_alarm_24.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_rate.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/rate.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_fragment_setting.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/fragment_setting.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_bg_main.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_bg_main.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_bp_custom_dialogue_box.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/bp_custom_dialogue_box.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_start.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/start.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_eye.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/eye.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_baseline_high_quality_24.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_baseline_high_quality_24.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_preview_size.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_preview_size.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_heart.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_heart.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_fragment_video_quality.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/fragment_video_quality.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_notif_cam_icon.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/notif_cam_icon.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_baseline_notifications_24.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_baseline_notifications_24.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_launcher.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_baseline_date_range_24.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_baseline_date_range_24.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_slider_layout.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/slider_layout.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_alarm.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_alarm.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_baseline_share_24.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_baseline_share_24.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_stopwatch.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_stopwatch.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_preview_sizebg.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_preview_sizebg.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_activity_alarm_page.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/activity_alarm_page.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_activity_main.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_explore.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_explore.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_baseline_videocam_24.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_baseline_videocam_24.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_home.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_fragment_preview_size.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/fragment_preview_size.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_videocamera.png.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/videocamera.png"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_activity_videos_folder.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/activity_videos_folder.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_microphone.png.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/microphone.png"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_video_cam.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/video_cam.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_ic_baseline_rate_review_24.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/ic_baseline_rate_review_24.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_overlays.png.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/overlays.png"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_activity_video_settings.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/activity_video_settings.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_round_icon.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/round_icon.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_fb_nativead.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/fb_nativead.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_fragment_home.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/drawable_splash.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/drawable/splash.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_native_ad_layout.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/native_ad_layout.xml"
+    },
+    {
+        "merged": "com.lockscreen_video_recorder_uhudSoft.app-merged_res-61:/layout_fragment_camera_video.xml.flat",
+        "source": "com.lockscreen_video_recorder_uhudSoft.app-main-63:/layout/fragment_camera_video.xml"
+    }
+]

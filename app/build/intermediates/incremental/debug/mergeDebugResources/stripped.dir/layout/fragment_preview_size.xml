@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.PreviewSizeFrag">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/id_cvShowNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="7dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:paddingEnd="15dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:text="@string/str_PreviewDisc"
+                android:textColor="@color/color_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="15dp" />
+
+            <RadioGroup
+                android:id="@+id/id_rdQuality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton android:id="@+id/id_rdbSmallPreview"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="@drawable/ic_bg_main"
+                    android:layout_marginTop="7dp"
+                    android:paddingStart="12dp"
+                    android:text="@string/str_smallPreview"/>
+
+                <RadioButton android:id="@+id/id_rdbMediumPreview"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="@drawable/ic_bg_main"
+                    android:layout_marginTop="7dp"
+                    android:paddingStart="12dp"
+                    android:text="@string/str_mediumPreview"/>
+
+                <RadioButton android:id="@+id/id_rdbLargePreview"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="@drawable/ic_bg_main"
+                    android:layout_marginTop="7dp"
+                    android:paddingStart="12dp"
+                    android:text="@string/str_largePreview"/>
+
+                <RadioButton android:id="@+id/id_rdbNoPreview"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="@drawable/ic_bg_main"
+                    android:layout_marginTop="7dp"
+                    android:paddingStart="12dp"
+                    android:text="@string/str_noPreview"/>
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/id_submitButton"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_preview_sizebg"
+                android:layout_marginTop="7dp"
+                android:text="Submit"
+                android:textSize="20dp"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

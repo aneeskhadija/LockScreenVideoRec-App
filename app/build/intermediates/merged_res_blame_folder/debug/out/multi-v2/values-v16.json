@@ -1,0 +1,57 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.lockscreen_video_recorder_uhudSoft.app-mergeDebugResources-59:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\asafa\\.gradle\\caches\\transforms-3\\d2f2cbd6af5688022d73d49f9007846b\\transformed\\jetified-mediation-test-suite-3.0.0\\res\\values-v16\\values.xml",
+                    "from": {
+                        "startLines": "4,10,16,22,28,34,40,46,52,59,65,72,78,84,90,96,102",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "200,448,695,945,1188,1442,1693,1945,2196,2493,2738,3035,3279,3527,3777,4036,4288",
+                        "endLines": "9,15,21,27,33,39,45,51,58,64,71,77,83,89,95,101,107",
+                        "endColumns": "8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8",
+                        "endOffsets": "447,694,944,1187,1441,1692,1944,2195,2492,2737,3034,3278,3526,3776,4035,4287,4552"
+                    },
+                    "to": {
+                        "startLines": "7,13,19,25,31,37,43,49,55,62,68,75,81,87,93,99,105",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "294,546,797,1051,1298,1556,1811,2067,2322,2623,2872,3173,3421,3673,3927,4190,4446",
+                        "endLines": "12,18,24,30,36,42,48,54,61,67,74,80,86,92,98,104,110",
+                        "endColumns": "8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8",
+                        "endOffsets": "541,792,1046,1293,1551,1806,2062,2317,2618,2867,3168,3416,3668,3922,4185,4441,4710"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\asafa\\.gradle\\caches\\transforms-3\\37ff2fb7efe0241c8c43b7cb205fd55f\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\asafa\\.gradle\\caches\\transforms-3\\b8d7831f8e68dea1aca233efd63a3079\\transformed\\appcompat-1.5.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

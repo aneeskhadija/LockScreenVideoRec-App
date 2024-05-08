@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Lockscreen video recorder</string>
+    <string name="main_page_selected">%s page is selected</string>
+
+    <!--AdMob Test Id-->
+    <!--<string name="AdMob_App_ID">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="AdMob_BannerAd_ID">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="AdMob_InterstitialAd_ID">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="AdMob_NaiveAd_ID">ca-app-pub-3940256099942544/2247696110</string>-->
+
+    <!--Admob Real Ad Ids-->
+    <string name="AdMob_App_ID">ca-app-pub-6738066609108399~9746264288</string>
+    <string name="AdMob_BannerAd_ID">ca-app-pub-6738066609108399/8104970396</string>
+    <string name="AdMob_InterstitialAd_ID">ca-app-pub-6738066609108399/7070573405</string>
+    <string name="AdMob_NaiveAd_ID">ca-app-pub-6738066609108399/4848251662</string>
+
+    <string name="str_DescStartRecording">Click to Start Recording</string>
+    <string name="str_Features">Features</string>
+    <string name="str_ClickToStart">Click to Start</string>
+    <string name="str_ClickToStop">Click to Stop</string>
+    <string name="str_IntroMsg">This sample demonstrates how to record video using Camera2 API.</string>
+    <string name="str_PermissionRequest">This sample needs permission for camera and audio recording.</string>
+    <string name="str_CameraError">This device doesn\'t support Camera2 API.</string>
+    <string name="str_Record">Record</string>
+    <string name="str_Stop">Stop</string>
+    <string name="str_Start">Start</string>
+    <string name="str_CancelAlarm">Cancel Alarm</string>
+    <string name="str_VideoCamera">Video Camera</string>
+    <string name="str_PreviewSize">Preview Size</string>
+    <string name="str_RateUs">Rate app</string>
+    <string name="str_ShareApp">Share app</string>
+    <string name="str_VideoQuality">Video Quality</string>
+    <string name="save_alarm">Set Alarm</string>
+
+    <string name="str_qua214p">QUALITY_214P</string>
+    <string name="str_qua480p">QUALITY_480P</string>
+    <string name="str_qua720p">QUALITY_720P</string>
+    <string name="str_qua1080p">QUALITY_1080P</string>
+
+    <string name="str_smallPreview">Small Preview</string>
+    <string name="str_mediumPreview">Medium Preview</string>
+    <string name="str_largePreview">Large Preview</string>
+    <string name="str_noPreview">No Preview</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_video">Videos</string>
+    <string name="title_videoQuality">Video Quality</string>
+    <string name="title_alarm">Alarm</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="str_alarmText">8:45 PM</string>
+    <string name="str_dateText">5 June 2022</string>
+    <string name="title_setting">Settings</string>
+    <string name="str_alarmTitle">Set Alarm for start Recording Automatically</string>
+
+    <string name="content_home">Home Screen</string>
+    <string name="content_favorite">Favourite Screen</string>
+    <string name="content_chat">Chat Screen</string>
+    <string name="content_notification">Notification Screen</string>
+    <string name="content_profile">Profile Screen</string>
+
+    <string name="empty_value">empty</string>
+    <string name="count">10</string>
+    <string name="count_update">20</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="desc_one">Camera Permission is needed in order to access the camera for recording video.</string>
+    <string name="desc_two">Micro Phone permission is required to record the voice with the video.</string>
+    <string name="desc_three">Read Storage permission is needed to access the camera recorded videos in the mobile memory.</string>
+    <string name="desc_fourth">Window Overlay permission is required to show the camera preview when user want to see the camera preview on the screen.</string>
+    <string name="allowed">Allowed</string>
+    <string name="allow">Allow</string>
+    <string name="set_alarm_for_recording">Set Alarm for Recording</string>
+    <string name="str_PrivacyPolicy">Privacy Policy</string>
+    <string name="str_PrivacyPolicyDesc">Uhud Soft built the Lockscreen video recorder app as a Free app. This SERVICE is provided by Uhud Soft at no cost and is intended for use as is.
+
+This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
+
+If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
+
+The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at Lockscreen video recorder unless otherwise defined in this Privacy Policy.
+Information Collection and Use: "\n"
+For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information. The information that we request will be retained by us and used as described in this privacy policy.
+The app does use third-party services that may collect information used to identify you.
+Link to the privacy policy of third-party service providers used by the app."\n""\n"
+Link to the privacy policy of third-party service providers used by the app"\n"
+Google Play Services"\n"
+AdMob"\n"
+Facebook"\n"
+Log Data"\n"
+We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics."\n""\n"
+Cookies"\n"
+Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device\'s internal memory."\n""\n"
+This Service does not use these “cookies” explicitly. However, the app may use third-party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service."\n""\n"
+
+Service Providers"\n"
+We may employ third-party companies and individuals due to the following reasons:"\n"
+To facilitate our Service;"\n"
+To provide the Service on our behalf;"\n"
+To perform Service-related services; or"\n"
+To assist us in analyzing how our Service is used."\n"
+We want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose."\n""\n"
+
+Security"\n"
+We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security."\n""\n"
+Links to Other Sites"\n"
+This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services."\n""\n"
+
+Children’s Privacy"\n"
+These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13 years of age. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do the necessary actions."\n""\n"
+
+Changes to This Privacy Policy"\n"
+We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page."\n""\n"
+
+This policy is effective as of 2023-05-19"\n""\n"
+
+Contact Us"\n"
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at: <a href="mailto:uhud365ad@gmail.com">uhud365ad@gmail.com</a>."\n"</string>
+    <string name="str_Agree">I Agree</string>
+
+    <string name="str_PreviewDisc">Click One of the buttons below to choose the size of Camera preview.</string>
+    <string name="str_chooseVideo_QualityBelow">Choose video Quality below:</string>
+
+
+    <string name="heading_one">Camera Permission Required</string>
+    <string name="heading_two">MicroPhone Permission Required</string>
+    <string name="heading_three">Read Storage Permission Required</string>
+    <string name="heading_fourth">Window Overlay Permission Required</string>
+
+    <string name="str_ShowNotification">key_show_notification</string>
+    <string name="str_UpdateAppKey">update_app_key</string>
+    <string name="stop">Stop</string>
+    <string name="permission_request">Permission Required</string>
+    <string name="record">Record</string>
+
+    <string-array name="str_pref_video_camera">
+        <item>Back Camera</item>
+        <item>Front Camera</item>
+    </string-array>
+
+    <string-array name="str_pref_video_quality">
+        <item>QUALITY_214P</item>
+        <item>QUALITY_480P</item>
+        <item>QUALITY_720P</item>
+        <item>QUALITY_1080P</item>
+    </string-array>
+
+    <string-array name="str_pref_preview_size">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+        <item>No Preview</item>
+    </string-array>
+
+    <string-array name="str_camera_sides">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="str_video_quality_sides">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="str_preview_size_options">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>
